@@ -9,11 +9,6 @@ interface IFlattenInput {
   flattenDown: boolean;
 }
 
-interface IUnique {
-  value: number;
-  index: number;
-}
-
 const input: IFlattenInput = {
   data: [0, 1, 2, 2, 3, 5],
   flattenDown: true
